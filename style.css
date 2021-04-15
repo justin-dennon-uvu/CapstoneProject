@@ -1,0 +1,20 @@
+:root {
+    --dark-blue: #2D6FF8;
+    --medium-blue: #278FD9;
+    --light-blue: #38D4F0;
+    --blue-green: #27D9C3;
+    --lignt-green: #2DF8A6;
+}
+
+body {
+    margin: 0 auto;
+}
+
+#banner {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#banner img {
+    max-width: 100%;
+}
