@@ -16,11 +16,13 @@ html {
 
 body {
     margin: 0 auto;
+    background-color: var(--light-blue);
 }
 
 #wrapper {
     margin: 0 auto;
     max-width: 960px;
+    background-color: white;
 }
 
 /* HEADER */
@@ -30,17 +32,20 @@ header img {
     max-height: 145px;
 }
 
+header {
+    overflow: hidden;
+}
+
 #header-overlay {
     display: block;
     position: absolute;
     width: 960px;
-    height: 145px;
-    background: black;
-    opacity: 0.7;
+    height: 150px;
     top: 0;
 }
 
 #header-text {
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -53,11 +58,27 @@ header img {
 
 nav {
     background: var(--dark-blue);
-    margin: 0;
-    padding: 0;
+    margin-top: -4px;
 }
 
 nav ul {
+    display: flex;
     list-style: none;
     padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-top: 21px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.active {
+    background-color: var(--light-green)
 }
