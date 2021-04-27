@@ -1,20 +1,61 @@
+/* SITE THEME */
+
 :root {
     --dark-blue: #2D6FF8;
     --medium-blue: #278FD9;
     --light-blue: #38D4F0;
     --blue-green: #27D9C3;
-    --lignt-green: #2DF8A6;
+    --light-green: #2DF8A6;
+}
+
+/* PAGE RULES */
+
+html {
+    font-family: 'Archivo', sans-serif;
 }
 
 body {
     margin: 0 auto;
 }
 
-#banner {
+#wrapper {
     margin: 0 auto;
-    padding: 0;
+    max-width: 960px;
 }
 
-#banner img {
-    max-width: 100%;
+/* HEADER */
+
+header img {
+    max-width: 960px;
+    max-height: 145px;
+}
+
+#header-overlay {
+    display: block;
+    position: absolute;
+    width: 960px;
+    height: 145px;
+    background: black;
+    opacity: 0.7;
+    top: 0;
+}
+
+#header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    color:white;
+    margin: 0;
+}
+
+/* NAV */
+
+nav {
+    background: var(--dark-blue);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
 }
