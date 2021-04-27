@@ -53,9 +53,11 @@ header img {
 
 nav {
     background: var(--dark-blue);
+    margin: 0;
+    padding: 0;
 }
 
 nav ul {
-    display: flex;
     list-style: none;
+    padding: 0;
 }
