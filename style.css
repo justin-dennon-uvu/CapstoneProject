@@ -53,12 +53,11 @@ header {
 }
 
 #header-text {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%, -50%);
-    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    color: white;
     margin: 0;
     font-family: 'Dancing Script', cursive;
     font-size: 3em;
@@ -106,4 +105,39 @@ footer {
     color: white;
     background-color: var(--orange);
     padding: 1px 0;
+}
+
+/* HOME PAGE */
+
+.home-img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* DESTINATIONS PAGE */
+
+.destinations-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.destinations-grid figure {
+    border: 1px solid var(--orange);
+    padding: 10px;
+}
+
+.destinations-grid figcaption {
+    text-align: center;
+    color: var(--orange);
+    margin: 8px;
+}
+
+/* VIRTUAL TOUR */
+
+.video {
+    width: 96%;
+    height: 400px;
+    margin-left: 2%;
+    margin-bottom: 20px;
 }
