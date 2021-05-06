@@ -108,19 +108,19 @@ header {
   }
 
   nav ul {
-      list-style-type: none;
-      padding: 0;
+    list-style-type: none;
+    padding: 0;
   }
 
   nav a {
-      border: 1px solid black;
-      color: white;
-      display: block;
-      padding: 0.5rem 2%;
-      text-align: center;
-      margin-bottom: 0.5rem;
-      border-radius: 10px;
-      text-decoration: none;
+    border: 1px solid black;
+    color: white;
+    display: block;
+    padding: 0.5rem 2%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    text-decoration: none;
   }
 
   .active {
@@ -229,7 +229,7 @@ footer {
 }
 
 .submit-button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 fieldset {
