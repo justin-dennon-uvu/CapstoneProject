@@ -11,8 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="wrapper">
@@ -31,6 +34,120 @@
           <li><a class="active" href="contact-us.html">Contact Us</a></li>
         </ul>
       </nav>
+      <main>
+        <h1>Contact us for more info!</h1>
+        <form
+          action="thank-you.html"
+          method="POST"
+          enctype="multipart/form-data"
+          name="book"
+          class="booking"
+        >
+          <fieldset>
+            <legend>Personal Info</legend>
+            <label
+              ><span>First Name:</span
+              ><input
+                name="first"
+                value=""
+                type="text"
+                class="userinput"
+                placeholder="John"
+                required
+            /></label>
+            <label
+              ><span>Last Name:</span
+              ><input
+                name="last"
+                value=""
+                type="text"
+                class="userinput"
+                placeholder="Smith"
+                required
+            /></label>
+            <label
+              ><span>Email:</span
+              ><input
+                type="email"
+                class="userinput"
+                name="email"
+                value=""
+                placeholder="johnsmith123@domain.com"
+                required
+            /></label>
+            <label
+              ><span>Phone:</span
+              ><input
+                type="tel"
+                class="user-input"
+                name="telephone"
+                value=""
+                placeholder="123-456-7890"
+                required
+                pattern="[0-9-. ]{10,14}"
+            /></label>
+          </fieldset>
+          <fieldset>
+            <legend>Travel Questions</legend>
+            <span>Where are you traveling from?</span>
+            <label
+              ><input type="radio" name="from" value="US" required />United States</label
+            >
+            <label
+              ><input type="radio" name="from" value="EU" />Europe</label
+            >
+            <label
+              ><input type="radio" name="from" value="OT" />Other</label
+            >
+            <span>What places are you planning on traveling to?</span>
+            <label
+              ><input type="checkbox" name="rm" value="Rome" />Rome</label
+            >
+            <label
+              ><input type="checkbox" name="cap" value="Capri" />Capri</label
+            >
+            <label
+              ><input type="checkbox" name="fl" value="Florence" />Florence</label
+            >
+            <label
+              ><input type="checkbox" name="si" value="Siena" />Siena</label
+            >
+            <label
+              ><input type="checkbox" name="na" value="Naples" />Naples</label
+            >
+            <label
+              ><input type="checkbox" name="ve" value="Venice" />Venice</label
+            >
+            <span>What place are you most excited to see?</span>
+            <select name="location-choice">
+              <option value="none">--select--</option>
+              <option value="Rome">Rome</option>
+              <option value="Capri">Capri</option>
+              <option value="Florence">Florence</option>
+              <option value="Siena">Siena</option>
+              <option value="Naples">Naples</option>
+              <option value="Venice">Venice</option>
+            </select>
+          </fieldset>
+          <fieldset>
+            <legend>Questions, Comments and Concerns</legend>
+            <textarea name="comments"></textarea>
+          </fieldset>
+          <input type="hidden" name="website1" value="dgm2120" />
+          <input
+            type="submit"
+            name="submit"
+            value="Submit Contact Form"
+            class="submit-button"
+          />
+        </form>
+      </main>
+      <footer>
+        <p>
+          &#169; 2021 &#8226; Grapevine Travel Co. &#8226; Built by Justin
+          Dennon
+        </p>
+      </footer>
     </div>
   </body>
 </html>

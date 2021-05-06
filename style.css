@@ -164,3 +164,38 @@ footer {
 .vacation-right {
     margin-left: 20px;
 }
+
+/* CONTACT US PAGE */
+
+.booking label {
+    display: block;
+}
+
+.booking span {
+    display: block;
+    padding-top: 1rem;
+}
+
+.booking textarea {
+    width: 400px;
+    height: 100px;
+}
+
+.submit-button {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--yellow);
+    margin-bottom: 20px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 2px solid var(--orange);
+    border-radius: 20px;
+}
+
+input, textarea {
+    background-color: rgba(242, 17, 111, 0.1);
+}
