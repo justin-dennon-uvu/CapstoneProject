@@ -228,6 +228,10 @@ footer {
   margin-bottom: 20px;
 }
 
+.submit-button:hover {
+    cursor: pointer;
+}
+
 fieldset {
   margin-bottom: 20px;
   border: 2px solid var(--orange);
